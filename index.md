@@ -7,8 +7,8 @@ https://www.argentina.gob.ar/coronavirus/informe-diario  - automatic!
 ### Last updated on Sunday, April 12th at 11:00pm
 
 Tests|
-**Positive**|**Negative**|**Pending**|**Deaths**|**Total test results (Positive+Negative)**
-2142|15480|2136|90|17622
+**Positive**|**Negative**|**Pending**|**Recovered**|**Deaths**|**Total test results (Positive+Negative)**
+2142|15480|2136|468|90|17622
 
 
 
