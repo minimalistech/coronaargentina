@@ -17,6 +17,6 @@ Tests|
 
 All data is cumulative and dates are in UTC.
  
-Country current values - [http://coronaargentina.org/current.csv] http://coronaargentina.org/current.csv
+Country current values - [http://coronaargentina.org/current.csv] (http://coronaargentina.org/current.csv)
 
 
