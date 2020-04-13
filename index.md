@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## CORONA ARGENTINA 
 
-You can use the [editor on GitHub](https://github.com/minimalistech/coronaargentina/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Corona Argentina publishes COVID testing data from Argentina using official goverment data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
