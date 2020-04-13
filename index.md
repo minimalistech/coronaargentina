@@ -10,6 +10,7 @@ Tests|
 2142|15480|2136|468|90|17622
 
 **Negative:** number of "cases" that were discarded by laboratory or by clinic/epidemiological criteria.
+
 **Recovered:** includes both fully recovered and people who may need some tracking.
  
 
