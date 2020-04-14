@@ -7,7 +7,7 @@ Corona Argentina publishes COVID testing data from Argentina using [official gov
 
 Tests|
 **Positive**|**Negative**|**Pending**|**Recovered**|**Deaths**|**Total test results (Positive+Negative)**
-2142|15480|2136|468|90|17622
+2277|17724|2804|559|101|20001
 
 **Negative:** number of "cases" that were discarded by laboratory or by clinic/epidemiological criteria.
 
