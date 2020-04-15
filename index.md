@@ -3,11 +3,11 @@
 Corona Argentina publishes COVID testing data from Argentina using [official goverment data](https://www.argentina.gob.ar/coronavirus/informe-diario).
 
 
-### Last updated on Tuesday, April 14th at 11:00pm
+### Last updated on Tuesday, April 15th at 11:00am
 
 Tests|
 **Positive**|**Negative**|**Pending**|**Recovered**|**Deaths**|**Total test results (Positive+Negative)**
-2443|17724|2804|559|105|20167
+2443|18901|3030|596|109|21344
 
 **Negative:** number of "cases" that were discarded by laboratory or by clinic/epidemiological criteria.
 
