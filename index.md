@@ -20,4 +20,4 @@ All data is cumulative and dates are in UTC.
  
 Country current values - [http://coronaargentina.org/current.csv](http://coronaargentina.org/current.csv)
 
-<iframe width="500" height="300" src="chart.html"></iframe>
+<iframe width="100%" height="600" src="chart.html" style="border:none;"></iframe>
