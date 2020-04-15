@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var positives = [];
+        var negatives = [];
+        var deaths = [];
+	 
+        function getData(csv) {
+            var dataPoints = csvLines = points = [];
+            csvLines = csv.split(/[\r?\n|\r|\n]+/);         
+		        
+            for (var i = 1; i < csvLines.length; i++)
+                if (csvLines[i].length > 0) {
+                    points = csvLines[i].split(",");
+                    positives.push({ x: new Date(points[6]), y: parseFloat(points[0]) });
+                    deaths.push({ x: new Date(points[6]), y: parseFloat(points[4]) });
+                    negatives.push({ x: new Date(points[6]), y: parseFloat(points[1]) });
+                }
+        }
+	
+	$.get("http://coronaargentina.org/current.csv?v=2", function(data) {
+            getData(data);
+	    var chart = new CanvasJS.Chart("chartContainer", {
+                    colorSet: "colorSet3",
+		    title: {
+		         text: "COVID-19 Argentina",
+		    },
+                    axisY: {gridThickness: 0},
+		    data: [
+		         { legendText: "deaths", showInLegend: true, type: "area", dataPoints: deaths },
+                         { legendText: "positives", showInLegend: true, type: "area", dataPoints: positives },
+                         { legendText: "negatives", showInLegend: true, type: "area", dataPoints: negatives }, 
+                   ]
+	     });
+		
+	      chart.render();
+
+	});
+  }
+</script>
+</head>
+<body>
+	<div id="chartContainer" style="width:100%; height:r500px;"></div>
+</body>
+</html>
