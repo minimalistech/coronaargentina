@@ -1,4 +1,4 @@
-## Corona Argentina 
+## COVID-19 Argentina 
 
 Corona Argentina publishes COVID testing data from Argentina using [official goverment data](https://www.argentina.gob.ar/coronavirus/informe-diario).
 
