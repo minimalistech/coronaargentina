@@ -27,7 +27,7 @@
 	    var chart = new CanvasJS.Chart("chartContainer", {
                     colorSet: "colorSet3",
 		    title: { },
-                    axisY: {gridThickness: 0},
+                    axisY: {logarithmic: true, gridThickness: 0},
 		    data: [
 		         { legendText: "deaths", showInLegend: true, type: "area", dataPoints: deaths },
                          { legendText: "positives", showInLegend: true, type: "area", dataPoints: positives },
